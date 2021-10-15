@@ -1,7 +1,7 @@
 ---
 title: "Wittenberg University: ANLT 510"
 subtitle: "Homework #1"
-author: "<enter your name here>"
+author: "Ridge Young"
 date: "`r format(Sys.Date(),'%d %B %Y')`"
 output: 
   html_document:
@@ -16,7 +16,8 @@ output:
 # to ensure that your work is complete and error free
 knitr::opts_chunk$set(echo = TRUE, 
                       error = TRUE)
-
+knitr::opts_chunk$set(echo = TRUE)
+                      error = FALSE
 ```
 
 ```{r q_2.2,child="exercises/2.2.Rmd"}
